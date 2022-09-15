@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Search Engine",
+  "description": "Adds YouTube search engine",
+  "version": "1.2",
+  "author": "A. Taha Baki",
+  "homepage_url": "https://github.com/atahabaki/firefox-yt-addon",
+  "developer": {
+    "name": "A. Taha Baki",
+    "url": "https://bio.link/atahabaki"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "YouTube",
+      "search_url":"https://www.youtube.com/results?search_query={searchTerms}",
+      "keyword": "@youtube",
+      "favicon_url": "https://www.youtube.com/favicon.ico",
+      "is_default": false,
+      "encoding": "UTF-8"
+    }
+  }
+}
